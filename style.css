@@ -1,0 +1,153 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle, 
+            #00565A 20%, 
+         #057070 40%, 
+        #0B0B0B 70%, 
+         #000000 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: radial-gradient(circle, 
+            #00565A 20%, 
+         #057070 40%, 
+        #0B0B0B 70%, 
+         #000000 100%);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #00f7ff;
+        }
+
+        .container {
+            text-align: center;
+        }
+        .styled-text {
+            font-family: Arial, sans-serif; 
+            font-size: 1.5rem; 
+            color: white; 
+            text-align: center; 
+            line-height: 1.5; 
+            margin-top: 30px;
+        }
+        
+        .styled-text .highlight {
+            color: #00f7ff; 
+            font-weight: 600; 
+        }
+        
+        .styled-text .highlight-bold {
+            color: #80ffde; 
+            font-weight: 700; 
+        }
+
+        .subtext {
+            color: var(--e-global-color-text);
+            font-family: "Lufga", Sans-serif;
+            font-size: 10px;
+            font-weight: normal;
+            line-height: 1.2em;
+            letter-spacing: 0.25px; 
+        }
+        .subtext .highlight {
+            color: #00f7ff; 
+            font-weight: 600;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+        
+        .banner {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color: #2ca9af;
+            color: #151524;
+            font-size: 20px;
+            font-weight: 800;
+            text-align: center;
+            padding: 8px 0;
+            border-radius: 10px 10px 0 0;
+            z-index: 2;
+            
+        }
+        
+        video {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px #00f7ff;
+            transition: box-shadow 0.3s ease;
+        }
+        
+        video:hover {
+            box-shadow: 0 15px 30px #00f7ff;
+        }
+        
+
+        .cta {
+            margin-top: 20px;
+        }
+
+        .cta button {
+            background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+            padding: 12px 25px;
+            margin: 20px auto;
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: #ffffff;
+            box-shadow: 0 0 20px #83FBFC;
+            border-radius: 10px;
+            display: block;
+            inline-size: auto;
+            font-weight: bolder;
+        }
+
+        .cta button:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
