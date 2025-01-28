@@ -19,17 +19,17 @@
         }
 
         .navbar {
+            position: sticky; 
+            top: 0;
+            z-index: 10;
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 15px 30px;
-            background: radial-gradient(circle, 
-            #00565A 20%, 
-         #057070 40%, 
-        #0B0B0B 70%, 
-         #000000 100%);
+            background: radial-gradient(circle, #00565A 20%, #057070 40%, #0B0B0B 70%, #000000 100%);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
+        
 
         .navbar .logo {
             font-size: 1.5rem;
@@ -138,12 +138,13 @@
             text-align: center;
             transition: 0.5s;
             background-size: 200% auto;
-            color: #ffffff;
+            color: #151524;
             box-shadow: 0 0 20px #83FBFC;
             border-radius: 10px;
             display: block;
             inline-size: auto;
-            font-weight: bolder;
+            font-weight:900;
+            font-size: 9px;
         }
 
         .cta button:hover {
